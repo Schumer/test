@@ -1,0 +1,172 @@
+/* Custom CSS for SMAgency */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.jumbotron {
+    position: relative;
+    background: linear-gradient(135deg, #00c9a7 0%, #92fe9d 100%);
+    color: white;
+    padding: 150px 0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+}
+
+.jumbotron .btn {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+}
+
+
+/* Navigation Bar */
+./* Adjust the top margin of the hero section to avoid gap with fixed navbar */
+.jumbotron {
+    margin-top: 75px; /* Adjust this value based on your navbar height */
+    position: relative;
+    background: linear-gradient(135deg, #00c9a7 0%, #92fe9d 100%);
+    color: white;
+    padding: 150px 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+}
+
+.jumbotron .btn {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+}
+
+
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Services Section */
+.service-card {
+    background: linear-gradient(135deg, #00c9a7 0%, #92fe9d 100%);
+    color: white;
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-card .card-body {
+    position: relative;
+    z-index: 1;
+}
+
+.service-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.service-card .card-text {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    color: #00c9a7;
+    margin-bottom: 30px;
+}
+
+#contact .form-group label {
+    font-weight: bold;
+    color: #00796b;
+}
+
+#contact .form-control {
+    border-radius: 0;
+    border: 1px solid #00c9a7;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#contact .btn-primary {
+    background-color: #00c9a7;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+#contact .btn-primary:hover {
+    background-color: #00796b;
+}
+
+#map {
+    border: 1px solid #00c9a7;
+    border-radius: 0;
+}
+
+
+footer {
+    background: #f8f9fa;
+}
+
+footer p {
+    margin: 0;
+}
