@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Marketing Agency</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">SMAgency</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to SMAgency</h1>
+        <p class="lead">Your partner in social media success.</p>
+        <a class="btn btn-primary btn-lg" href="#services" role="button">Learn More</a>
+    </header>
+
+    <!-- Services Section -->
+  <!-- Services Section -->
+<section id="services" class="container text-center">
+    <h2 class="my-5">Our Services</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm service-card">
+                <div class="card-body">
+                    <h5 class="card-title">Content Creation</h5>
+                    <p class="card-text">We create engaging and original content tailored to your brand's voice. Our team of skilled writers and designers ensure every post captures your audience's attention and drives engagement.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm service-card">
+                <div class="card-body">
+                    <h5 class="card-title">Social Media Management</h5>
+                    <p class="card-text">Our experts manage your social media accounts, crafting strategies to increase your online presence. We handle everything from posting schedules to interaction with followers, ensuring your brand stays active and relevant.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm service-card">
+                <div class="card-body">
+                    <h5 class="card-title">Analytics and Reporting</h5>
+                    <p class="card-text">We provide detailed analytics and comprehensive reports that give you insights into your social media performance. Our data-driven approach helps you make informed decisions and optimize your social media strategy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center my-5">About Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>We are a dedicated team of social media experts with a passion for helping businesses grow online. Our mission is to deliver exceptional social media services that drive engagement, build brand loyalty, and generate leads.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/500" class="img-fluid" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="contact" class="container py-5">
+    <h2 class="text-center my-5">Contact Us</h2>
+    <div class="row">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+        <!-- Google Map -->
+        <div class="col-md-6">
+            <div id="map" style="width: 100%; height: 400px;"></div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 SMAgency. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
