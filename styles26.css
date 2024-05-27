@@ -1,36 +1,45 @@
 /* Custom CSS */
 /* Hier kannst du deine eigenen CSS-Anpassungen vornehmen */
-/* Farben */
-.bg-dark {
-  background-color: #cc0000;
+
+/* Navigationsleiste */
+.navbar {
+  background-color: #cc0000; /* Rot */
 }
 
-.btn-danger {
-  background-color: #cc0000;
-  border-color: #cc0000;
-}
-
-.btn-danger:hover {
-  background-color: #aa0000;
-  border-color: #aa0000;
-}
-
+/* Navigationsleisten-Links */
 .navbar-light .navbar-nav .nav-link {
-  color: #cc0000;
+  color: #fff; /* Weiß */
 }
 
+/* Navigationsleisten-Links bei Hover */
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #aa0000;
+  color: #eee; /* Helleres Weiß */
 }
 
+/* Footer */
 footer {
-  background-color: #cc0000;
+  background-color: #cc0000; /* Rot */
+  color: #fff; /* Weiß */
 }
 
+/* Footer-Links */
 footer a {
-  color: #fff;
+  color: #fff; /* Weiß */
 }
 
+/* Footer-Links bei Hover */
 footer a:hover {
-  color: #eee;
+  color: #ccc; /* Helleres Weiß */
+}
+
+/* Buttons */
+.btn-danger {
+  background-color: #cc0000; /* Rot */
+  border-color: #cc0000; /* Rot */
+}
+
+/* Buttons bei Hover */
+.btn-danger:hover {
+  background-color: #b31d23; /* Dunkleres Rot */
+  border-color: #b31d23; /* Dunkleres Rot */
 }
