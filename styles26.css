@@ -2,36 +2,36 @@
 /* Hier kannst du deine eigenen CSS-Anpassungen vornehmen */
 /* Farben */
 .bg-dark {
-  background-color: #cc0000;
+  background-color: #ec1f26; /* Würth Rot */
 }
 
 .btn-danger {
-  background-color: #cc0000;
-  border-color: #cc0000;
+  background-color: #ec1f26; /* Würth Rot */
+  border-color: #ec1f26; /* Würth Rot */
 }
 
 .btn-danger:hover {
-  background-color: #aa0000;
-  border-color: #aa0000;
+  background-color: #b31d23; /* Dunkleres Rot */
+  border-color: #b31d23; /* Dunkleres Rot */
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #fff; /* Schriftfarbe Weiß */
+  color: #333; /* Dunkler Text */
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #eee; /* Hellere Schriftfarbe bei Hover */
+  color: #ec1f26; /* Würth Rot */
 }
 
 footer {
-  background-color: #cc0000;
-  color: #fff; /* Schriftfarbe Weiß */
+  background-color: #ec1f26; /* Würth Rot */
+  color: #fff; /* Weißer Text */
 }
 
 footer a {
-  color: #fff;
+  color: #fff; /* Weißer Text */
 }
 
 footer a:hover {
-  color: #eee;
+  color: #ccc; /* Heller Text bei Hover */
 }
