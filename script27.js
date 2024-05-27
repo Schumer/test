@@ -12,3 +12,11 @@ document.getElementById('fillButton').addEventListener('click', function() {
         }
     }
 });
+
+document.getElementById('chatButton').addEventListener('click', function() {
+    document.getElementById('chatWindow').style.display = 'block';
+});
+
+document.getElementById('closeChat').addEventListener('click', function() {
+    document.getElementById('chatWindow').style.display = 'none';
+});
