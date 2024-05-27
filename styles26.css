@@ -16,6 +16,13 @@
   }
 }
 
+/* Media Query für Desktop */
+@media (min-width: 992px) {
+  .bg-image {
+    height: 400px; /* Höhe für Desktop-Ansicht */
+  }
+}
+
 /* Navigationsleiste */
 .navbar {
   background-color: #cc0000 !important; /* Rot */
@@ -47,4 +54,14 @@ footer a:hover {
   color: #ccc !important; /* Helleres Weiß */
 }
 
-/* Butto
+/* Buttons */
+.btn-danger {
+  background-color: #cc0000 !important; /* Rot */
+  border-color: #cc0000 !important; /* Rot */
+}
+
+/* Buttons bei Hover */
+.btn-danger:hover {
+  background-color: #b31d23 !important; /* Dunkleres Rot */
+  border-color: #b31d23 !important; /* Dunkleres Rot */
+}
