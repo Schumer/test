@@ -18,11 +18,8 @@ body {
 }
 
 .profile-image {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
+    font-size: 150px; /* Größe des Profilbildes */
+    color: #6c757d; /* Farbe des Icons */
 }
 
 .progress-bar {
@@ -51,4 +48,13 @@ button {
     border: none;
     border-radius: 5px;
     color: white;
+}
+
+.star {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: gold;
+    display: none; /* Stern verstecken */
 }
