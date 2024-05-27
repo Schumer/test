@@ -48,6 +48,7 @@ button {
     border: none;
     border-radius: 5px;
     color: white;
+    margin: 5px;
 }
 
 .star {
@@ -57,4 +58,45 @@ button {
     font-size: 30px;
     color: gold;
     display: none; /* Stern verstecken */
+}
+
+.chat-window {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #76c7c0;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.chat-content {
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.close-chat {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
