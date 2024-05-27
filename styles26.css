@@ -3,43 +3,43 @@
 
 /* Navigationsleiste */
 .navbar {
-  background-color: #cc0000; /* Rot */
+  background-color: #cc0000 !important; /* Rot */
 }
 
 /* Navigationsleisten-Links */
 .navbar-light .navbar-nav .nav-link {
-  color: #fff; /* Weiß */
+  color: #fff !important; /* Weiß */
 }
 
 /* Navigationsleisten-Links bei Hover */
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #eee; /* Helleres Weiß */
+  color: #eee !important; /* Helleres Weiß */
 }
 
 /* Footer */
 footer {
-  background-color: #cc0000; /* Rot */
-  color: #fff; /* Weiß */
+  background-color: #cc0000 !important; /* Rot */
+  color: #fff !important; /* Weiß */
 }
 
 /* Footer-Links */
 footer a {
-  color: #fff; /* Weiß */
+  color: #fff !important; /* Weiß */
 }
 
 /* Footer-Links bei Hover */
 footer a:hover {
-  color: #ccc; /* Helleres Weiß */
+  color: #ccc !important; /* Helleres Weiß */
 }
 
 /* Buttons */
 .btn-danger {
-  background-color: #cc0000; /* Rot */
-  border-color: #cc0000; /* Rot */
+  background-color: #cc0000 !important; /* Rot */
+  border-color: #cc0000 !important; /* Rot */
 }
 
 /* Buttons bei Hover */
 .btn-danger:hover {
-  background-color: #b31d23; /* Dunkleres Rot */
-  border-color: #b31d23; /* Dunkleres Rot */
+  background-color: #b31d23 !important; /* Dunkleres Rot */
+  border-color: #b31d23 !important; /* Dunkleres Rot */
 }
