@@ -1,7 +1,7 @@
 <?php
 $servername = "mysql:host=rdbms.strato.de;dbname=dbs12936037"; // oder der Servername deines Hosting-Providers
 $username = "looks-familiar.com";
-$password = "Heute240524&";
+$password = "Heute170524&";
 $dbname = "dbs12936037";
 
 // Verbindung zur Datenbank herstellen
