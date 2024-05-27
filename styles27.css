@@ -61,7 +61,7 @@ button {
 }
 
 .chat-window {
-    display: none;
+    display: none; /* Chat-Fenster initial verstecken */
     position: fixed;
     bottom: 20px;
     right: 20px;
