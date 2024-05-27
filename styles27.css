@@ -1,4 +1,4 @@
-/* styles.css */
+/* styles27.css */
 body {
     display: flex;
     flex-direction: column;
@@ -52,8 +52,8 @@ button {
 
 .star {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -10px; /* Korrigiere die Position nach Bedarf */
+    right: -10px; /* Korrigiere die Position nach Bedarf */
     font-size: 30px;
     color: gold;
     display: none; /* Stern verstecken */
