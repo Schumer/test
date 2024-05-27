@@ -1,6 +1,21 @@
 /* Custom CSS */
 /* Hier kannst du deine eigenen CSS-Anpassungen vornehmen */
 
+/* Hintergrundbild für den Header */
+.bg-image {
+  background-image: url('bild.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Standardhöhe für Desktop-Ansicht */
+}
+
+/* Media Query für mobile Geräte */
+@media (max-width: 768px) {
+  .bg-image {
+    height: 200px; /* Höhe für mobile Ansicht */
+  }
+}
+
 /* Navigationsleiste */
 .navbar {
   background-color: #cc0000 !important; /* Rot */
@@ -32,14 +47,4 @@ footer a:hover {
   color: #ccc !important; /* Helleres Weiß */
 }
 
-/* Buttons */
-.btn-danger {
-  background-color: #cc0000 !important; /* Rot */
-  border-color: #cc0000 !important; /* Rot */
-}
-
-/* Buttons bei Hover */
-.btn-danger:hover {
-  background-color: #b31d23 !important; /* Dunkleres Rot */
-  border-color: #b31d23 !important; /* Dunkleres Rot */
-}
+/* Butto
